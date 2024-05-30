@@ -38,8 +38,7 @@ function Signin() {
           window.location.reload()
         //   navigate('/home')
         } catch (error) {
-          
-          setError(error.response.data.error || 'Signup failed');
+          setError(error.response.data.error);
           toast.error(error.response.data.error);
         //   console.error(error);
         }
