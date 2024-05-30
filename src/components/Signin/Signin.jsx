@@ -44,24 +44,7 @@ function Signin() {
         }
       };
 
-    // // axios.defaultsWithCredentials = true
-    // const handleSubmit =async (e) => {
-    //     e.preventDefault()
-    //     await axios.post(`http://localhost:4000/api/user/signup`, user)
-    //     console.log(user)
-    //     .then((response) => {
-    //         console.log(response);
-    //         toast.success('Successfully created',)
-    //         localStorage.setItem('token', response.data.token)
-    //         localStorage.setItem('name', response.data.name)
-    //         // navigate('/home')
-    //         window.location.reload()
-    //     })
-    //     .catch((err) => {
-    //         console.log(err.response.data.error);
-    //         toast.error(err.response.data.error)
-    //     })
-    // }
+  
 
     const handleSuccess = (response) => {
         console.log('Login Success: currentUser:', response.profileObj);
