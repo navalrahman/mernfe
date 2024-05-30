@@ -1,0 +1,30 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    margin: -10px;
+}
+.navbar h4 {
+    margin: 0;
+}
+.navbar input[type='search'] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.navbar button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.navbar button:hover {
+    background-color: #45a049;
+}
